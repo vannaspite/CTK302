@@ -20,3 +20,7 @@ function mouseReleased(){
     song1.loop();
   }
 }
+
+function touchStarted() {
+  getAudioContext().resume();
+}
