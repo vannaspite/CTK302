@@ -1,7 +1,7 @@
 var song1;
 
 function preload(){
-  song1 = loadSound("assets/mking.mp3");
+  song1 = loadSound("assets/song.mp3");
 }
 
 function setup() {
