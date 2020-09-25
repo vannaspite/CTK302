@@ -10,12 +10,12 @@ function draw() {
   switch (state) {
     case 0:
     background('yellow');
-    text("joke", height / 2, width / 2);
+    text("what's the queue to get a \n drink at a party called?", height / 2, width / 2);
     break;
 
     case 1:
     background('orange')
-    text("punchline", height / 2, width / 2);
+    text("a punchline", height / 2, width / 2);
     break;
   }
 }
