@@ -6,12 +6,6 @@ function preload() {
   song2 = loadSound("assets/2.m4a");
   song3 = loadSound("assets/3.mp3");
 
-  song1.loop();
-  song1.pause();
-  song2.loop();
-  song2.pause();
-  song3.loop();
-  song3.pause();
 }
 
 function setup() {
