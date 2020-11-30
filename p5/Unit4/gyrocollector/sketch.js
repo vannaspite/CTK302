@@ -91,9 +91,9 @@ function draw() {
   textSize(20);
   textAlign(CENTER);
   textFont(f);
-  text("tilt your phone to\ncollectthe stars", width / 2, 600);
+  text("tilt your phone to collect the stars", width / 2, height/2 + 200, windowWidth - 200, windowHeight - 200);
   textSize(10);
-  text("shake your phone to make new stars", width / 2, 650);
+  text("shake your phone to make new stars", width / 2, height/2 + 300, windowWidth - 200, windowHeight - 200);
 
   // Debugging information -- take this out when you're ready for production!
   // Just a bunch of text commands to display data coming in from addEventListeners
